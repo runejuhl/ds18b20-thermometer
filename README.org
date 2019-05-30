@@ -1,0 +1,30 @@
+#+TITLE: Arduino DS18B20 1-wire thermometer
+#+AUTHOR: Rune Juhl Jacobsen <runejuhl@petardo.dk>
+
+* Schematic
+
+#+BEGIN_HTML
+  <img src="schematic_bb.png" alt="Schematic">
+#+END_HTML
+
+* Example output
+
+#+BEGIN_EXAMPLE
+  R=28 FF F3 9F 82 15 2 59 Device is a DS18B20 family device.
+  P=1 0000000101111111 CRC=BA Temp: 21.15 degrees C
+  P=1 0000000101111111 CRC=BA Temp: 21.15 degrees C
+  P=1 0000000101111111 CRC=BA Temp: 21.15 degrees C
+  P=1 0000000101111111 CRC=BA Temp: 21.15 degrees C
+  P=1 0000000101111111 CRC=BA Temp: 21.15 degrees C
+  P=1 0000000110000010 CRC=E1 Temp: 22.20 degrees C
+  P=1 0000000110001001 CRC=0E Temp: 23.29 degrees C
+  P=1 0000000110001010 CRC=CB Temp: 23.40 degrees C
+  P=1 0000000110001001 CRC=0E Temp: 23.29 degrees C
+  P=1 0000000110001000 CRC=4D Temp: 23.26 degrees C
+  P=1 0000000110000111 CRC=B7 Temp: 22.35 degrees C
+  P=1 0000000110000111 CRC=B7 Temp: 22.35 degrees C
+  P=1 0000000110000110 CRC=F4 Temp: 22.32 degrees C
+  P=1 0000000110000110 CRC=F4 Temp: 22.32 degrees C
+  P=1 0000000110000101 CRC=31 Temp: 22.21 degrees C
+  P=1 0000000110000101 CRC=31 Temp: 22.21 degrees C
+#+END_EXAMPLE
