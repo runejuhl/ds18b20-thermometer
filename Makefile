@@ -1,5 +1,5 @@
 FERRET  = ferret
-INO     = demo.ino
+INO     = ds18b20-thermometer.ino
 ARDUINO = ~/bin/arduino
 BOARD   = arduino:avr:uno
 PORT    = /dev/ttyACM0
